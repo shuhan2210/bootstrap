@@ -1,0 +1,179 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+/* title section */
+
+#title{
+background-color: #ff4c68;
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+color: white;
+}
+
+.container-fluid{
+  padding: 3% 15% 0% 15%;
+}
+
+.iphone{
+  transform: rotate(20deg);
+  width: 300px;
+  margin-left: 50px;
+  position: absolute;
+}
+
+
+.downloadinfo{
+  height: 450px;
+}
+
+.navbar{
+  margin-bottom: 100px;
+}
+
+.list{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar-brand{
+  font-size: 50px;
+  font-family: "Ubuntu";
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.downloadbtn{
+  margin-right: 10px;
+}
+
+/* features section */
+
+#features{
+  padding: 7% 15% ;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.featurebox{
+  text-align: center;
+  padding: 4%;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+}
+
+.para{
+  color: #8f818f;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 550;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+#press{
+  padding: 3%;
+  background-color: #ef8172;
+  text-align: center;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 40px 50px;
+}
+
+  /* Pricing */
+  #pricing{
+    padding: 4% 7%;
+    text-align: center;
+  }
+
+/* call to action   */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 17%;
+}
+
+.cta-text{
+  font-size: 3rem;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 2%;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.footer-icon{
+  padding-bottom: 10px;
+}
+
+.fa-facebook-f{
+  padding-left:8px;
+}
+
+.fa-instagram{
+  padding-left:8px;
+  padding-right: 8px;
+}
+
+@media (max-width:994px) {
+  #title{
+    text-align: center;
+
+  }
+  .iphone{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
